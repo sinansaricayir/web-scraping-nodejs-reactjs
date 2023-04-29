@@ -4,7 +4,9 @@
 Proje Amacı:
 
 Bu proje, online kitap siteleri olan kitapsepeti.com ve kitapyurdu.com'dan veri kazıma işlemini gerçekleştirerek, kitapların adı, yazarı, yayımcısı, resmi ve güncel fiyat bilgilerini toplama amacını taşımaktadır. Bu işlem için Node.js kullanılmakta ve Puppeteer kütüphanesi veri toplama işlemi için ideal bir seçim olmaktadır.
+
 Projeye, modern bir tasarım sunmak adına, React.js kullanılarak önde yüzü oluşturulmuş ve cihazlara uyumlu, responsive bir yapı oluşturulmuştur. Arka tarafta ise, veri toplama işlemi için Node.js, Puppeteer ve Express.js gibi popüler teknolojiler kullanılmıştır. Bu sayede, web sayfalarından veri toplama işlemi hızlı ve güvenli bir şekilde gerçekleştirilir.
+
 Toplanan veriler arasında kitap adı, yazarı, yayımcısı, resmi ve güncel fiyat bilgileri yer alır ve bu veriler MongoDB veri tabanında saklanır. API kullanılarak, frontend kısmında yer alan React.js arayüzüne erişim sağlanarak veriler görüntülenebilir. Ayrıca, sayfa içerisinde yer alan arama bölümü sayesinde, kitap adı, yazar veya yayımcı adına göre arama yapmak da mümkündür.
 
 
